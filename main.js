@@ -37,7 +37,7 @@ let getLocation = () => {
             details.innerHTML = `Latitude: ${position.coords.latitude}<br>Longitude: ${position.coords.longitude}`;
             
             //  Set parameter values in Tableau
-            updateDashboard(position.coords.latitude, position.coord.longitude);
+            updateDashboard(position.coords.latitude, position.coords.longitude);
         })
     } else {
         // geolocation IS NOT available
